@@ -9092,6 +9092,11 @@ textarea.form-control {
     color: #282828;
 }
 
+.portfolio-carousel{
+    margin: 0 0px !important;
+    border-radius: 0px !important;
+}
+
 /* Mobile Phones */
 @media (min-width: 320px) and (max-width: 575px) {
     .cart-table tbody tr td {
