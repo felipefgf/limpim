@@ -643,6 +643,12 @@ select {
     padding-left: 100px !important;
 }
 
+@media (max-width: 1024px) {
+    .container-fluid .social-icons{
+        display: none !important;
+    }
+}
+
 @media (max-width: 1200px) {
     .inner-padding {
         padding: 30px !important;
