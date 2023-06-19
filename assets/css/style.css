@@ -4029,7 +4029,7 @@ textarea.form-control {
 }
 
 .footer-widget-title {
-    color: #000;
+    color: #fff;
     font-size: 16px;
     text-transform: capitalize;
     margin-bottom: 33px;
@@ -4039,7 +4039,7 @@ textarea.form-control {
 .copyright__nav li a {
     display: block;
     position: relative;
-    color: #000;
+    color: #fff;
     font-size: 14px;
     margin-bottom: 11px;
 }
