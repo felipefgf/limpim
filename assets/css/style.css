@@ -2129,7 +2129,6 @@ textarea.form-control {
     position: relative;
     padding: 0 0 14px;
     margin: 0 30px 20px 0;
-    text-transform: capitalize;
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
@@ -2761,7 +2760,6 @@ textarea.form-control {
 .navbar .nav__item .nav__item-link {
     font-size: 15px;
     font-weight: 700;
-    text-transform: capitalize;
     display: block;
     position: relative;
     color: #1b1a1a;
@@ -4031,7 +4029,6 @@ textarea.form-control {
 .footer-widget-title {
     color: #fff;
     font-size: 16px;
-    text-transform: capitalize;
     margin-bottom: 33px;
 }
 
@@ -5563,7 +5560,6 @@ textarea.form-control {
     font-size: 14px;
     font-weight: 700;
     line-height: 1;
-    text-transform: capitalize;
     display: block;
     padding-bottom: 4px;
 }
@@ -6891,7 +6887,6 @@ textarea.form-control {
 }
 
 .comments-list .comment__item .comment__content .comment__reply {
-    text-transform: capitalize;
     font-size: 14px;
     font-weight: 700;
     line-height: 1;
@@ -7517,7 +7512,6 @@ textarea.form-control {
     font-family: "Rubik", sans-serif;
     font-size: 15px;
     font-weight: 700;
-    text-transform: capitalize;
     padding: 20px;
     border-radius: 8px;
     color: #1b1a1a;
@@ -7599,7 +7593,6 @@ textarea.form-control {
     font-size: 15px;
     font-weight: 700;
     padding: 22px 30px;
-    text-transform: capitalize;
     border-radius: 50px;
     font-family: "Rubik", sans-serif;
     color: #1b1a1a;
@@ -7625,7 +7618,6 @@ textarea.form-control {
     display: block;
     font-size: 14px;
     line-height: 1;
-    text-transform: capitalize;
     padding: 6px 10px;
     margin: 0 10px 10px 0;
     border-radius: 6px;
@@ -8414,7 +8406,6 @@ textarea.form-control {
     padding: 3px 10px;
     border-radius: 3px;
     margin-right: 10px;
-    text-transform: capitalize;
     color: #ffffff;
     background-color: #4aab3d;
 }
