@@ -655,6 +655,12 @@ select {
     }
 }
 
+@media (min-width: 1200px) and (max-width: 1333px){
+    .contact__number{
+        display: none !important;
+    }
+}
+
 /* Medium Devices */
 @media (min-width: 768px) and (max-width: 991px) {
     section {
@@ -1106,7 +1112,6 @@ h5,
 h6 {
     color: #282828;
     font-family: "Rubik", sans-serif;
-    text-transform: capitalize;
     font-weight: 500;
     line-height: 1.4;
     margin-bottom: 20px;
@@ -1436,7 +1441,6 @@ h6 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    text-transform: capitalize;
     position: relative;
     z-index: 1;
     font-size: 14px;
@@ -3065,7 +3069,7 @@ textarea.form-control {
 }
 
 .header-layout1 .social-icons li a i {
-    background-color: #1b1a1a;
+    background-color: #00a859;
 }
 
 .header-layout1 .social-icons li a i:hover {
@@ -3981,7 +3985,7 @@ textarea.form-control {
     Footer
 --------------------------*/
 .footer {
-    background-color: #161616;
+    background-color: #4aab3d;
 }
 
 .footer .social-icons a {
@@ -3989,15 +3993,15 @@ textarea.form-control {
 }
 
 .footer .social-icons a i {
-    color: #282828;
+    color: #fff;
 }
 
 .footer .social-icons a:hover {
-    border-color: #f9f9f9;
+    border-color: #000;
 }
 
 .footer .social-icons a:hover a {
-    color: #ffffff;
+    color: #000;
 }
 
 .footer .btn__download {
@@ -4008,7 +4012,7 @@ textarea.form-control {
 .footer .btn__location {
     font-size: 14px;
     font-weight: 700;
-    color: #ffffff;
+    color: #000;
 }
 
 .footer .btn__location:hover {
@@ -4025,7 +4029,7 @@ textarea.form-control {
 }
 
 .footer-widget-title {
-    color: #ffffff;
+    color: #000;
     font-size: 16px;
     text-transform: capitalize;
     margin-bottom: 33px;
@@ -4035,14 +4039,14 @@ textarea.form-control {
 .copyright__nav li a {
     display: block;
     position: relative;
-    color: #9b9b9b;
+    color: #000;
     font-size: 14px;
     margin-bottom: 11px;
 }
 
 .footer-widget-nav li a:hover,
 .copyright__nav li a:hover {
-    color: #ffffff;
+    color: #000;
 }
 
 .copyright__nav li a {
@@ -4055,7 +4059,7 @@ textarea.form-control {
     content: "-";
     position: absolute;
     right: 0;
-    color: #9b9b9b;
+    color: #000;
 }
 
 .copyright__nav li:last-child a:after {
@@ -4067,12 +4071,12 @@ textarea.form-control {
 }
 
 .footer-widget-about .btn .icon-arrow-right {
-    color: #ffffff;
+    color: #000;
     background-color: #4aab3d;
 }
 
 .footer-widget-about .btn:hover {
-    color: #ffffff;
+    color: #000;
 }
 
 .footer-widget-about .btn:hover .icon-arrow-right {
@@ -4085,7 +4089,7 @@ textarea.form-control {
 }
 
 .footer-copyrights {
-    background-color: #121212;
+    background-color: #35772c;
     padding-top: 42px;
     padding-bottom: 42px;
 }

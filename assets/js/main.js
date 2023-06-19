@@ -89,20 +89,11 @@ $(function () {
 
     /*==========   Scroll Top Button   ==========*/
     var $scrollTopBtn = $('#scrollTopBtn');
+    $scrollTopBtn.addClass('actived');
     // Show Scroll Top Button
-    $win.on('scroll', function () {
-        if ($(this).scrollTop() > 700) {
-            $scrollTopBtn.addClass('actived');
-        } else {
-            $scrollTopBtn.removeClass('actived');
-        }
-    });
-    // Animate Body after Clicking on Scroll Top Button
-    $scrollTopBtn.on('click', function () {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 500);
-    });
+    // $win.on('scroll', function () {
+    //     $scrollTopBtn.addClass('actived');
+    // });
 
     /*==========   Set Background-img to section   ==========*/
     $('.bg-img').each(function () {
