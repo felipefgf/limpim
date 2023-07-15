@@ -2747,6 +2747,10 @@ textarea.form-control {
     width: 44px !important;
 }
 
+.slide-item{
+    background-position: center right !important;
+}
+
 .social-icons li a i{
     height: 44px !important;
     width: 44px !important;
