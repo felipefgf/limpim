@@ -9150,3 +9150,7 @@ textarea.form-control {
 .portfolio__body .btn{
     visibility: hidden;
 }
+
+.portfolio-layout3 .portfolio-item .portfolio__body {
+    bottom: -139px !important;
+}
