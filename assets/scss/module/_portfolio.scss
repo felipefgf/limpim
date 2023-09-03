@@ -6,7 +6,6 @@
     border-radius: 5px;
     margin-bottom: 30px;
     box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.06);
-    @include prefix(transition, all 0.3s linear, webkit moz ms o);
 
     .portfolio__img {
         position: relative;
@@ -23,15 +22,6 @@
     .portfolio__body {
         background: $color-white;
         padding: 25px 36px 36px 40px;
-        @include prefix(transition, all 0.5s ease, webkit moz ms o);
-    }
-
-    &:hover {
-        box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.11);
-
-        .portfolio__img img {
-            @include prefix(transform, scale(1.1) rotate(1deg), webkit moz ms o);
-        }
     }
 
     .portfolio__cat {
@@ -183,16 +173,6 @@
         .portfolio__body {
             border-radius: 10px;
             box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.16);
-
-            &:before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 30px;
-                right: 30px;
-                height: 3px;
-                background-color: $color-primary;
-            }
         }
 
         .portfolio__icon {
@@ -313,12 +293,6 @@
             position: absolute;
             bottom: -166px;
             left: 0;
-        }
-
-        &:hover {
-            .portfolio__body {
-                bottom: 0;
-            }
         }
     }
 }
@@ -489,13 +463,6 @@
                 font-size: 14px;
                 opacity: 0;
                 margin-top: 0;
-            }
-
-            &:hover {
-                .portfolio__desc {
-                    opacity: 1;
-                    margin-top: 10px;
-                }
             }
         }
 

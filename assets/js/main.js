@@ -128,7 +128,7 @@ $(function () {
         })
     }
 
-    loadMore('.loadMoreportfolio', '.portfolio-hidden > .portfolio-item');
+    // loadMore('.loadMoreportfolio', '.portfolio-hidden > .portfolio-item');
 
     /*==========   Slick Carousel ==========*/
     $('.slick-carousel').slick();

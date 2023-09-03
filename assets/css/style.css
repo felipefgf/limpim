@@ -9133,3 +9133,20 @@ textarea.form-control {
     }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.portfolio__body .portfolio__cat{
+    visibility: hidden;
+}
+
+.portfolio__body .portfolio__title{
+    text-align: center
+}
+
+.portfolio__body .portfolio__desc{
+    visibility: hidden;
+}
+
+.portfolio__body .btn{
+    visibility: hidden;
+}
